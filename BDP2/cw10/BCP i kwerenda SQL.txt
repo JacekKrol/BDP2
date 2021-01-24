@@ -1,0 +1,13 @@
+CREATE TABLE CUSTOMERS_290913(
+ProductKey INTEGER,
+CurrencyAlternateKey VARCHAR(20),
+FIRST_NAME VARCHAR(40),
+LAST_NAME VARCHAR(40),
+OrderDateKey VARCHAR(20),
+OrderQuantity VARCHAR(20),
+UnitPrice FLOAT,
+SecretCode VARCHAR(20));
+
+####### BCP #######
+bcp  AdventureWorksDW2019.dbo.CUSTOMERS_290913 format nul -c -T -t, -f C:\Users\jacek\Desktop\BD2\cw10\wynik.fmt   
+bcp  AdventureWorksDW2019.dbo.CUSTOMERS_290913 in C:\Users\jacek\Desktop\BD2\cw10\CUSTOMERS_290913.csv -f C:\Users\jacek\Desktop\BD2\cw10\wynik.fmt -T

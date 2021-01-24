@@ -1,0 +1,23 @@
+232318_24012021 : Downloading succesful
+232318_24012021 : Unzip success
+232318_24012021 : Numer of lines 10008
+232318_24012021 : Remove empty lines succesful
+232318_24012021 : Numer deleted empty lines: 0
+232319_24012021 : Remove duplicated lines: success
+232319_24012021 : Numer duplicated lines: 12
+232319_24012021 : Remove line with bad number of colmuns: success
+232319_24012021 : Numer lines with bad colmuns number: 8
+232320_24012021 : Remove line with bad OrderQuantity values: success
+232320_24012021 : Numer lines with bad OrderQuantity values: 6
+232320_24012021 : Remove lines which exist in InternetSales_old.txt: success
+232320_24012021 : Numer lines in both files: 7
+232321_24012021 : Remove lines with SecretCode: success
+232321_24012021 : Numer lines with SecretCode: 4
+232322_24012021 : Remove lines where last and first name are not sprated by ',': success
+232322_24012021 : Numer lines with bad customer name: 10
+232322_24012021 : Split customer name: success
+232323_24012021 : Create table: success
+232324_24012021 : Insert data to table: success
+232324_24012021 : Insert data to SecretCode column: success
+232324_24012021 : Export table to csv: success
+232324_24012021 : Compress csv file: success
